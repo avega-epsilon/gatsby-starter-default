@@ -10,7 +10,7 @@ module.exports = {
       resolve: `gatsby-plugin-gatsby-cloud`,
       options: {
         headers: {
-          "/tag_path": [
+          "/tag_path/*": [
             "RP-Host: cnvrm.com",
             "X-Forwarded-Request-Path: /tag_path",
           ],
